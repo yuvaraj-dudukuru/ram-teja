@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    color: #333;
+    transition: 0.3s;
+}
+
+.dark-mode {
+    background-color: #222;
+    color: white;
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    font-size: 24px;
+}
+
+.settings {
+    margin-bottom: 15px;
+}
+
+#timer {
+    font-size: 48px;
+    margin: 20px 0;
+    font-weight: bold;
+}
+
+.buttons button, .task-container button, #dark-mode {
+    font-size: 16px;
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#start { background-color: #4CAF50; color: white; }
+#pause { background-color: #FF9800; color: white; }
+#reset { background-color: #F44336; color: white; }
+#add-task { background-color: #008CBA; color: white; }
+#dark-mode { background-color: #222; color: white; }
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: #ddd;
+    padding: 10px;
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+li button {
+    background: red;
+    border: none;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 3px;
+}
